@@ -1,0 +1,12 @@
+Student Grade Manager evidence
+
+Browser capture: grade-manager.png
+Sample rows: Priya (92, A), Arun (78, C), Divya (83, B), Mina (59, E)
+Class average: 78.0
+Highest mark: 92
+Lowest mark: 59
+
+Automated checks: 4 passed.
+
+Session-state reflection for the community post:
+A plain Python list reset on each Streamlit rerun, so earlier students disappeared; st.session_state keeps the roster between interactions.
